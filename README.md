@@ -11,8 +11,6 @@ A simple chess game implemented using React.
 *   **Move Validation:** Validates moves according to chess rules, including checks for valid paths and piece collisions.
 *   **Highlighting Valid Moves:** Highlights available moves for a selected piece.
 *   **Check and Checkmate Detection:** Detects check and checkmate situations using hooks.
-*   **Stalemate Detection:** Detects stalemate situations.
-*   **Pawn Promotion:** Allows pawn promotion to Queen, Rook, Bishop, or Knight upon reaching the opposite end of the board.
 *   **Castling:** Implements castling move for the King and Rook pieces.
 *   **Responsive Design:** Adapts the board size to the screen size.
 
@@ -62,8 +60,7 @@ Before running the application, ensure you have the following installed:
     *   Click on a chess piece to select it.  Valid moves for the selected piece will be highlighted.
     *   Click on a highlighted square to move the piece to that location.
     *   The game automatically switches turns between White and Black.
-    *   Pawn promotion prompts you to select the piece to promote to (Queen, Rook, Bishop, or Knight) when a pawn reaches the opposite rank.
-    *   The game displays alerts for checkmate, stalemate, and when a player wins.
+    *   The game displays alerts for checkmate and when a player wins.
 
 ## 💡How to Contribute?
 1.  Fork the repository.
